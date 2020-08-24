@@ -1,9 +1,14 @@
-body 
-{
 
-     color:blue;
-     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+header{
 
-    
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font: arial;   
+
+}
+
+#inicioPost{
+    background-color: aqua;
+    color: black;
 }
