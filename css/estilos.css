@@ -3,12 +3,15 @@ header{
 
     background-color: blue;
     color: white;
+    border: 30px;
     text-align: center;
-    font: arial;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 
 }
 
 #inicioPost{
     background-color: aqua;
+    border: 30px;
+    border-color: black;
     color: black;
 }
