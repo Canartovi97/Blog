@@ -1,17 +1,52 @@
 
 header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkblue;
+    padding: 10px;
+}
 
+body{
+    background-color: darkblue;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: center;
+    margin: 0px 400px;
+    margin-bottom: 0;
+    width: 500px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 10px;
+    flex-wrap: wrap;
     background-color: blue;
     color: white;
-    border: 30px;
+    /*border: 30px;*/
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 
 }
 
-#inicioPost{
-    background-color: aqua;
-    border: 30px;
-    border-color: black;
+.inicioPost{
+    background-color:cornflowerblue;
+    margin: 25px;
+    margin-bottom: 0px;    
+    border:5px solid black ;
+    border-radius: 10px;
     color: black;
+}
+
+.footer{
+    margin: 25px;
+    margin-top: 0px;
+    background-color: beige;
+    background-size: auto;
+    color: black;    
+    text-align: center;
+}
+
+.footer h1{
+margin: 0;
+
 }
